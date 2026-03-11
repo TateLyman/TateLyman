@@ -4,7 +4,7 @@ I build developer tools — CLI utilities, browser-based tools, and open source 
 
 ## Live Projects
 
-**[DevTools.run](https://devtools-site-delta.vercel.app)** — 20 free browser-based developer tools. JSON formatter, JWT decoder, regex tester, QR generator, and more. No tracking, no accounts, 100% client-side.
+**[DevTools.run](https://devtools-site-delta.vercel.app)** — 22 free browser-based developer tools. JSON formatter, JWT decoder, Solana token lookup, wallet checker, and more. No tracking, no accounts, 100% client-side.
 
 **[Resume Builder](https://resume-builder-three-omega-84.vercel.app)** — Free resume builder with live preview, PDF export, and multiple templates.
 
@@ -21,6 +21,8 @@ All zero dependencies, pure Node.js:
 | [logpretty-cli](https://npmjs.com/package/logpretty-cli) | Pretty-print JSON logs (pino, winston, bunyan) | `npm i -g logpretty-cli` |
 | [@tatelyman/gitquick-cli](https://npmjs.com/package/@tatelyman/gitquick-cli) | Git shortcuts for lazy devs | `npm i -g @tatelyman/gitquick-cli` |
 | [@tatelyman/readme-gen](https://npmjs.com/package/@tatelyman/readme-gen) | Auto-generate README from package.json | `npm i -g @tatelyman/readme-gen` |
+| [apifetch-cli](https://npmjs.com/package/apifetch-cli) | Fast CLI tool for testing REST APIs with colored output | `npm i -g apifetch-cli` |
+| [solcheck-cli](https://npmjs.com/package/solcheck-cli) | Check Solana wallet balances and token holdings | `npm i -g solcheck-cli` |
 
 ## GitHub Actions
 
