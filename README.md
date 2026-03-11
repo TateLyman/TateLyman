@@ -32,6 +32,12 @@ All zero dependencies, pure Node.js:
     github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
+## Support
+
+If any of my tools save you time, tips are appreciated:
+
+**SOL:** `NaTTUfDDQ8U1RBqb9q5rz6vJ22cWrrT5UAsXuxnb2Wr`
+
 ## Tech
 
 TypeScript, Python, Node.js, Next.js, Solana, Security Research
