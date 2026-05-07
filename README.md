@@ -2,6 +2,10 @@
 
 I build practical developer tools: CLI utilities, browser-based tools, release checks, and small automation systems.
 
+## Hire Me
+
+**[Websites and automation services](https://tatelyman.github.io/tate-web-services/)** — Fixed-scope website repair, one-page business sites, and small automation/dashboard builds for local businesses and small teams.
+
 ## Live Projects
 
 **[Shipcheck CLI](https://github.com/TateLyman/shipcheck-cli)** — Release-readiness scanner for JavaScript and TypeScript repos. Checks CI, package scripts, lockfiles, dependency hygiene, docs, TypeScript config, and unsafe release scripts. Tested TypeScript CLI with Markdown/JSON output.
