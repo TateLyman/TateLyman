@@ -1,8 +1,10 @@
 # Hey, I'm Tate
 
-I build developer tools — CLI utilities, browser-based tools, and open source projects.
+I build practical developer tools: CLI utilities, browser-based tools, release checks, and small automation systems.
 
 ## Live Projects
+
+**[Shipcheck CLI](https://github.com/TateLyman/shipcheck-cli)** — Release-readiness scanner for JavaScript and TypeScript repos. Checks CI, package scripts, lockfiles, dependency hygiene, docs, TypeScript config, and unsafe release scripts. Tested TypeScript CLI with Markdown/JSON output.
 
 **[DevTools.run](https://devtools-site-delta.vercel.app)** — 22 free browser-based developer tools. JSON formatter, JWT decoder, Solana token lookup, wallet checker, and more. No tracking, no accounts, 100% client-side.
 
@@ -19,7 +21,7 @@ All zero dependencies, pure Node.js:
 | [portfind-cli](https://npmjs.com/package/portfind-cli) | Find/kill processes on ports | `npm i -g portfind-cli` |
 | [envcheck-dev](https://npmjs.com/package/envcheck-dev) | Validate .env against .env.example | `npm i -g envcheck-dev` |
 | [logpretty-cli](https://npmjs.com/package/logpretty-cli) | Pretty-print JSON logs (pino, winston, bunyan) | `npm i -g logpretty-cli` |
-| [@tatelyman/gitquick-cli](https://npmjs.com/package/@tatelyman/gitquick-cli) | Git shortcuts for lazy devs | `npm i -g @tatelyman/gitquick-cli` |
+| [@tatelyman/gitquick-cli](https://npmjs.com/package/@tatelyman/gitquick-cli) | Shortcuts for common Git workflows | `npm i -g @tatelyman/gitquick-cli` |
 | [@tatelyman/readme-gen](https://npmjs.com/package/@tatelyman/readme-gen) | Auto-generate README from package.json | `npm i -g @tatelyman/readme-gen` |
 | [apifetch-cli](https://npmjs.com/package/apifetch-cli) | Fast CLI tool for testing REST APIs with colored output | `npm i -g apifetch-cli` |
 | [solcheck-cli](https://npmjs.com/package/solcheck-cli) | Check Solana wallet balances and token holdings | `npm i -g solcheck-cli` |
