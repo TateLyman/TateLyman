@@ -9,6 +9,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 ## Current Focus
 
 - MCP server packaging, registry metadata, npm releases, Glama readiness, and directory submissions.
+- Public MCP registry research and launch-readiness signals.
 - Release-readiness tooling for JavaScript and TypeScript projects.
 - Fixed-scope launch cleanup for builders who need a repo, package, or site tightened quickly.
 - Security-minded review work where the output is concrete: findings, patches, repro steps, and follow-up notes.
@@ -20,6 +21,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 | Shipcheck CLI | Release-readiness scanner for JavaScript and TypeScript repos. Checks scripts, docs, lockfiles, CI signals, TypeScript config, dependency hygiene, and risky release paths. | [GitHub](https://github.com/TateLyman/shipcheck-cli) / [npm](https://www.npmjs.com/package/shipcheck-cli) |
 | Shipcheck MCP | Local MCP server for authorized repo scans through Shipcheck. Published on npm with registry metadata and public directory proof. | [GitHub](https://github.com/TateLyman/shipcheck-mcp) / [npm](https://www.npmjs.com/package/shipcheck-mcp) / [Glama](https://glama.ai/mcp/servers/TateLyman/shipcheck-mcp) |
 | Tate Programs | Terminal-style services site for fixed-scope website, automation, launch review, and MCP directory work. | [Site](https://tateprograms.com) / [Case files](https://tateprograms.com/case-studies.html) |
+| MCP Registry Pulse | Aggregate snapshot of MCP Registry launch-readiness signals across metadata, package paths, README proof, safety notes, and smoke-test language. | [Pulse](https://tateprograms.com/mcp-registry-pulse.html) |
 | MCP Directory Launch Checklist | Public checklist for preparing MCP servers for npm, `server.json`, install docs, tool behavior notes, registry proof, Glama, PulseMCP, and curated directory PRs. | [Checklist](https://tateprograms.com/mcp-directory-checklist.html) |
 | LaunchQuest | Torque incentive demo with custom event tracking, launch documentation, and public demo trail. | [GitHub](https://github.com/TateLyman/launchquest-torque) |
 
