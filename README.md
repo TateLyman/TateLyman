@@ -11,6 +11,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 - MCP server packaging, registry metadata, npm releases, Glama readiness, and directory submissions.
 - Public MCP registry research and launch-readiness signals.
 - Agent commerce, x402/Pay.sh launch controls, spend caps, receipts, and payment metadata filtering.
+- AgentCore-style payment session policies, approval gates, payee allowlists, and audit trails.
 - Agent security, prompt-injection drills, policy checks, audit evidence, and human-review launch gates.
 - Release-readiness tooling for JavaScript and TypeScript projects.
 - Fixed-scope launch cleanup for builders who need a repo, package, or site tightened quickly.
@@ -27,6 +28,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 | Agent Commerce Gate | Browser-only readiness checker for x402, Pay.sh, API-payment, and payment-agent prototypes: quoted prices, enforceable caps, receipts, provider validation, and metadata filtering. | [Gate](https://tateprograms.com/agent-commerce-gate.html) / [Sample report](https://tateprograms.com/agent-commerce-sample-report.html) |
 | Pay.sh Catalog Pulse | Live catalog snapshot for agent-paid API provider counts, pricing surfaces, free-tier coverage, and launch-control review priorities. | [Pulse](https://tateprograms.com/pay-sh-catalog-pulse.html) / [JSON](https://tateprograms.com/pay-sh-catalog-pulse.json) |
 | x402 Metadata Filter | Browser-only filter for x402/Pay.sh payment metadata: prompts, user identifiers, resource URLs, query tokens, wallet context, and secret-like receipt fields. | [Tool](https://tateprograms.com/x402-metadata-filter.html) |
+| AgentCore Payment Policy | Browser-only policy builder for AgentCore Payments, x402, MPP, and Pay.sh demos: session caps, per-call limits, payee allowlists, approval rules, receipts, replay protection, and audit evidence. | [Tool](https://tateprograms.com/agentcore-payment-policy.html) |
 | MCP Registry Pulse | Aggregate snapshot of MCP Registry launch-readiness signals across metadata, package paths, README proof, safety notes, and smoke-test language. | [Pulse](https://tateprograms.com/mcp-registry-pulse.html) |
 | MCP Directory Launch Checklist | Public checklist for preparing MCP servers for npm, `server.json`, install docs, tool behavior notes, registry proof, Glama, PulseMCP, and curated directory PRs. | [Checklist](https://tateprograms.com/mcp-directory-checklist.html) |
 | LaunchQuest | Torque incentive demo with custom event tracking, launch documentation, and public demo trail. | [GitHub](https://github.com/TateLyman/launchquest-torque) |
@@ -37,7 +39,7 @@ I take small, well-scoped implementation work where the finish line is clear.
 
 - MCP directory launch pass: package metadata, `server.json`, README install path, Glama readiness, and directory submission notes.
 - Agent security launch review: prompt-injection drills, policy rules, tool boundaries, audit trails, rate limits, and human-review gates.
-- Agent commerce readiness review: x402/Pay.sh spend caps, quoted-price previews, receipts, retry/refund paths, provider validation, and PII-safe payment metadata.
+- Agent commerce readiness review: x402/Pay.sh/AgentCore spend caps, quoted-price previews, session policies, receipts, retry/refund paths, provider validation, and PII-safe payment metadata.
 - Launch risk pass: quick technical review before a repo, package, or web app gets promoted.
 - Fix sprint: production blocker repair, broken deploys, broken forms, auth flow issues, payment path checks, or release cleanup.
 - Website repair: mobile layout, contact path, page speed basics, metadata, links, and obvious conversion blockers.
