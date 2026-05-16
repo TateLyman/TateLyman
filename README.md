@@ -38,7 +38,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 
 ## Current Proof Trail
 
-- Agent Trust Bench: builder confirmed eight clean-check items matched the live deployment after repeated no-payment review loops. [Builder confirmation](https://github.com/solana-foundation/pay-skills/pull/23#issuecomment-4467453947)
+- Agent Trust Bench: repeated no-payment review loops moved an adversarial payment bench to clean sampled checks across discovery, browser preflight, no-store 402s, and resource binding. [Clean final pass](https://github.com/solana-foundation/pay-skills/pull/23#issuecomment-4467580071)
 - paysh-send: private-transfer x402 pass isolated browser preflight, no-store, resource-binding, and smallest-units docs gaps without sending payment headers or touching funds. [Surface note](https://github.com/solana-foundation/pay-skills/pull/20#issuecomment-4467457050)
 - Boundary Guard: follow-up verification cleared resource binding, sidecar scope, and health-probe boundary notes on a live x402 scanner. [Fix verification](https://github.com/solana-foundation/pay-skills/pull/52#issuecomment-4464739109)
 - x402watch: provider added browser-readable CORS directly on 402 responses after review isolated the actual challenge path. [Fix note](https://github.com/solana-foundation/pay-skills/pull/36#issuecomment-4467183605)
