@@ -10,7 +10,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 
 - MCP server packaging, registry metadata, npm releases, Glama readiness, and directory submissions.
 - Public MCP registry research and launch-readiness signals.
-- Agent commerce, x402/MPP/Pay.sh launch controls, spend caps, receipts, payment metadata filtering, and no-payment public-surface checks.
+- Agent commerce, x402/MPP/Pay.sh launch controls, spend caps, receipts, registry hygiene, payment metadata filtering, and no-payment public-surface checks.
 - AgentCore-style payment session policies, approval gates, payee allowlists, and audit trails.
 - Agent security, prompt-injection drills, policy checks, audit evidence, and human-review launch gates.
 - Release-readiness tooling for JavaScript and TypeScript projects.
@@ -26,7 +26,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 | Tate Programs | Terminal-style services site for fixed-scope website, automation, launch review, and MCP directory work. | [Site](https://tateprograms.com) / [Case files](https://tateprograms.com/case-studies.html) |
 | Agent Security Drill Kit | Browser-only readiness checker for prompt injection, exfiltration, tool boundaries, policy actions, audit trails, rate limits, safe demos, and human review gates. | [GitHub](https://github.com/TateLyman/agent-security-drill-kit) / [Tool](https://tateprograms.com/agent-security-drill.html) |
 | Agent Commerce Gate | Browser-only readiness checker for x402, Pay.sh, API-payment, and payment-agent prototypes: quoted prices, enforceable caps, receipts, provider validation, and metadata filtering. | [Gate](https://tateprograms.com/agent-commerce-gate.html) / [Sample report](https://tateprograms.com/agent-commerce-sample-report.html) |
-| x402 Surface Check | Browser checker and npm CLI for x402 manifests, `endpoints[]` docs, OpenAPI specs, direct paid endpoints, MPP headers, and no-payment 402 challenges. | [GitHub](https://github.com/TateLyman/x402-surface-check) / [npm](https://www.npmjs.com/package/x402-surface-check) / [Tool](https://tateprograms.com/x402-surface-check.html) |
+| x402 Surface Check | Browser checker and npm CLI for x402 manifests, `endpoints[]` docs, OpenAPI specs, direct paid endpoints, MPP headers, no-payment 402 challenges, cache/resource checks, and credential-like registry URL params with redacted output. | [GitHub](https://github.com/TateLyman/x402-surface-check) / [npm](https://www.npmjs.com/package/x402-surface-check) / [Tool](https://tateprograms.com/x402-surface-check.html) |
 | x402 Surface Check Action | GitHub Marketplace Action for CI payment-surface checks before x402, MPP, Pay.sh, and payment-agent launches ship. | [Marketplace](https://github.com/marketplace/actions/x402-surface-check) / [GitHub](https://github.com/TateLyman/x402-surface-check-action) / [Launch review](https://tateprograms.com/agent-payment-launch-review.html) |
 | x402 Attack Map 2026 | Field note mapping current x402/MPP attack classes to practical controls: finality, facilitator binding, replay protection, cache hygiene, metadata boundaries, and discovery steering. | [Field note](https://tateprograms.com/x402-attack-map-2026.html) |
 | Pay.sh Catalog Pulse | Live catalog snapshot for agent-paid API provider counts, pricing surfaces, free-tier coverage, and launch-control review priorities. | [Pulse](https://tateprograms.com/pay-sh-catalog-pulse.html) / [JSON](https://tateprograms.com/pay-sh-catalog-pulse.json) |
