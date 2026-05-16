@@ -36,6 +36,13 @@ I build practical developer tools and small launch systems: release checks, MCP 
 | MCP Directory Launch Checklist | Public checklist for preparing MCP servers for npm, `server.json`, install docs, tool behavior notes, registry proof, Glama, PulseMCP, and curated directory PRs. | [Checklist](https://tateprograms.com/mcp-directory-checklist.html) |
 | LaunchQuest | Torque incentive demo with custom event tracking, launch documentation, and public demo trail. | [GitHub](https://github.com/TateLyman/launchquest-torque) |
 
+## Current Proof Trail
+
+- Agent Trust Bench: builder confirmed eight clean-check items matched the live deployment after repeated no-payment review loops. [Builder confirmation](https://github.com/solana-foundation/pay-skills/pull/23#issuecomment-4467453947)
+- paysh-send: private-transfer x402 pass isolated browser preflight, no-store, resource-binding, and smallest-units docs gaps without sending payment headers or touching funds. [Surface note](https://github.com/solana-foundation/pay-skills/pull/20#issuecomment-4467457050)
+- Boundary Guard: follow-up verification cleared resource binding, sidecar scope, and health-probe boundary notes on a live x402 scanner. [Fix verification](https://github.com/solana-foundation/pay-skills/pull/52#issuecomment-4464739109)
+- x402watch: provider added browser-readable CORS directly on 402 responses after review isolated the actual challenge path. [Fix note](https://github.com/solana-foundation/pay-skills/pull/36#issuecomment-4467183605)
+
 ## Services
 
 I take small, well-scoped implementation work where the finish line is clear.
