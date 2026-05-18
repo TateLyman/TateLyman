@@ -11,6 +11,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 - MCP server packaging, registry metadata, npm releases, Glama readiness, and directory submissions.
 - Public MCP registry research and launch-readiness signals.
 - Agent commerce, x402/MPP/Pay.sh launch controls, spend caps, receipts, registry hygiene, payment metadata filtering, and no-payment public-surface checks.
+- Private x402 re-checks and small authorized fix sprints for browser CORS, cache, resource binding, discovery docs, and registry proof.
 - AgentCore-style payment session policies, approval gates, payee allowlists, and audit trails.
 - Agent security, prompt-injection drills, policy checks, audit evidence, and human-review launch gates.
 - Release-readiness tooling for JavaScript and TypeScript projects.
@@ -27,6 +28,7 @@ I build practical developer tools and small launch systems: release checks, MCP 
 | Agent Security Drill Kit | Browser-only readiness checker for prompt injection, exfiltration, tool boundaries, policy actions, audit trails, rate limits, safe demos, and human review gates. | [GitHub](https://github.com/TateLyman/agent-security-drill-kit) / [Tool](https://tateprograms.com/agent-security-drill.html) |
 | Agent Commerce Gate | Browser-only readiness checker for x402, Pay.sh, API-payment, and payment-agent prototypes: quoted prices, enforceable caps, receipts, provider validation, and metadata filtering. | [Gate](https://tateprograms.com/agent-commerce-gate.html) / [Sample report](https://tateprograms.com/agent-commerce-sample-report.html) |
 | x402 Surface Check | Browser checker and npm CLI for x402 manifests, `endpoints[]` docs, OpenAPI specs, direct paid endpoints, MPP headers, no-payment 402 challenges, cache/resource checks, and credential-like registry URL params with redacted output. | [GitHub](https://github.com/TateLyman/x402-surface-check) / [npm](https://www.npmjs.com/package/x402-surface-check) / [Tool](https://tateprograms.com/x402-surface-check.html) |
+| x402 Fix Sprint | Private paid re-check or small authorized implementation pass for one agent-payment blocker: browser-readable 402s, cache headers, canonical resource URLs, discovery docs, registry proof, or idempotency notes. | [Offer](https://tateprograms.com/x402-fix-sprint.html) / [Proof](https://tateprograms.com/case-studies.html) |
 | x402 Surface Check Action | GitHub Marketplace Action for CI payment-surface checks before x402, MPP, Pay.sh, and payment-agent launches ship. | [Marketplace](https://github.com/marketplace/actions/x402-surface-check) / [GitHub](https://github.com/TateLyman/x402-surface-check-action) / [Launch review](https://tateprograms.com/agent-payment-launch-review.html) |
 | x402 Attack Map 2026 | Field note mapping current x402/MPP attack classes to practical controls: finality, facilitator binding, replay protection, cache hygiene, metadata boundaries, and discovery steering. | [Field note](https://tateprograms.com/x402-attack-map-2026.html) |
 | Pay.sh Catalog Pulse | Live catalog snapshot for agent-paid API provider counts, pricing surfaces, free-tier coverage, and launch-control review priorities. | [Pulse](https://tateprograms.com/pay-sh-catalog-pulse.html) / [JSON](https://tateprograms.com/pay-sh-catalog-pulse.json) |
@@ -39,6 +41,8 @@ I build practical developer tools and small launch systems: release checks, MCP 
 ## Current Proof Trail
 
 - Agent Trust Bench: repeated no-payment review loops moved an adversarial payment bench to clean sampled checks across discovery, browser preflight, no-store 402s, and resource binding. [Builder validation](https://github.com/solana-foundation/pay-skills/pull/23#issuecomment-4467597309)
+- Cryptorefills: live x402 checkout blocker was diagnosed, verified by the maintainer, re-authored, and landed on `master` with credit. [Landed credit](https://github.com/Cryptorefills/agentic-commerce/pull/3#issuecomment-4478268227)
+- Sentinel: builder patched browser payment headers and HTTPS resource binding after the no-payment review; a fresh pass confirmed the P1s were fixed. [Fixed re-check](https://github.com/coinbase/x402/pull/154#issuecomment-4480044559)
 - paysh-send: private-transfer x402 pass isolated browser preflight, no-store, resource-binding, and smallest-units docs gaps without sending payment headers or touching funds. [Surface note](https://github.com/solana-foundation/pay-skills/pull/20#issuecomment-4467457050)
 - Boundary Guard: follow-up verification cleared resource binding, sidecar scope, and health-probe boundary notes on a live x402 scanner. [Fix verification](https://github.com/solana-foundation/pay-skills/pull/52#issuecomment-4464739109)
 - x402watch: provider added browser-readable CORS directly on 402 responses after review isolated the actual challenge path. [Fix note](https://github.com/solana-foundation/pay-skills/pull/36#issuecomment-4467183605)
@@ -51,6 +55,7 @@ I take small, well-scoped implementation work where the finish line is clear.
 - Agent security launch review: prompt-injection drills, policy rules, tool boundaries, audit trails, rate limits, and human-review gates.
 - Agent commerce readiness review: x402/Pay.sh/AgentCore spend caps, quoted-price previews, session policies, receipts, retry/refund paths, provider validation, and PII-safe payment metadata.
 - x402 public-surface pass: no-payment manifest/challenge review, resource canonicalization, browser path checks, and private patch order.
+- x402 fix sprint: paid private re-check or small authorized patch path for one launch blocker.
 - Agent payment launch review: private x402/MPP/Pay.sh/AgentCore review with no-payment endpoint probes, spend-map notes, cache policy checks, CORS/payment-header checks, and patch sequencing.
 - Launch risk pass: quick technical review before a repo, package, or web app gets promoted.
 - Fix sprint: production blocker repair, broken deploys, broken forms, auth flow issues, payment path checks, or release cleanup.
